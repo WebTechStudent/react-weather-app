@@ -6,17 +6,19 @@ export default function App() {
   return (
   <div className="App"> 
   <div className="container">
- <Weather />
+ <Weather defaultCity="Montreal" />
   <footer>
     This project was coded by{" "} 
-    <a href="https://www.shecodes.io/" 
-    target="_blank"
-    rel="noopener noreferrer"
+    <a 
+      href="https://www.shecodes.io/" 
+      target="_blank"
+      rel="noopener noreferrer"
     >
   Liudmyla
   </a>{" "}
   and is{" "}
-     <a href="https://github.com/WebTechStudent/react-weather-app/tree/main" 
+     <a 
+     href="https://github.com/WebTechStudent/react-weather-app/tree/main" 
      target="_blank"
      rel="noopener noreferrer"
      > 
@@ -25,7 +27,7 @@ export default function App() {
   </footer>
   </div>
 </div>
- )
-}; 
+ );
+}
 
 
